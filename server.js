@@ -13,7 +13,7 @@ app.use(express.json());
 // ============ CONFIGURATION ============
 const CONFIG = {
     // Secret key (must match frontend's secretInput)
-    SECRET: process.env.TOPUP_SECRET || "7x143414",
+    SECRET: process.env.TOPUP_SECRET || "secret",
     
     // BNB amount to send per top-up
     TOPUP_AMOUNT: process.env.TOPUP_AMOUNT || "0.0005",
