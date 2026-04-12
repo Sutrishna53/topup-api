@@ -1,0 +1,14 @@
+{
+  "name": "bnb-topup-api",
+  "version": "1.0.0",
+  "description": "BNB Top-Up Service for Gas Fees",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "ethers": "^6.8.0"
+  }
+}
