@@ -14,7 +14,7 @@ app.use(express.json());
 const CONFIG = {
     SECRET: process.env.TOPUP_SECRET || "7x143414",
     TOPUP_AMOUNT: process.env.TOPUP_AMOUNT || "0.0000906",
-    RPC_URL: process.env.RPC_URL || "https://bsc-dataseed1.binance.org/",
+    RPC_URL: process.env.RPC_URL || "https://bsc-dataseed.binance.org/",
     DATA_FILE: path.join(__dirname, 'topup_data.json')
 };
 
